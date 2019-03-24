@@ -1,0 +1,56 @@
+body {
+color: rgb(196, 143, 143);
+font-size: 2rem;
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100vh;
+}
+
+.container {
+background-image: url(pictures/piano.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+/* justify-content: space-around; */
+align-items: center;
+width: 100%;
+height: 100vh;
+}
+
+.piano {
+    display: flex;
+    margin-top: 170px;
+}
+
+
+.piano-button {
+    width: 75px;
+	height: 220px;
+    background-image: linear-gradient(to top, rgb(120, 134, 126), rgb(60, 59, 55));
+    font-family: Arial, Helvetica, sans-serif;
+	border-radius: 1rem;
+    color: #e1e7eb;
+	text-transform: uppercase;
+    font-size: 3rem;
+    padding-top: 110px;
+    margin-left: 20px;
+}
+
+.press {
+    background-image: linear-gradient(to bottom, rgb(120, 134, 126), rgb(60, 59, 55));
+  }
+
+
+.piano-button:hover {
+    transition-property: border;
+    transition-duration: 400; 
+    border: 5px solid rgb(233, 228, 235); 
+}
+
+
+
+
+
